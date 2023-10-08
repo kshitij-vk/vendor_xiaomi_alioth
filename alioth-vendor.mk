@@ -184,12 +184,109 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/alioth/proprietary/vendor/firmware/spk1_voice_delta.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk1_voice_delta.txt \
     vendor/xiaomi/alioth/proprietary/vendor/firmware/spk2_playback_delta.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk2_playback_delta.txt \
     vendor/xiaomi/alioth/proprietary/vendor/firmware/spk2_voice_delta.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk2_voice_delta.txt \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.actuator.alioth_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.actuator.alioth_dw9800.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.eeprom.alioth_ofilm_hi556_p24c64f.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.alioth_ofilm_hi556_p24c64f.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.eeprom.alioth_ofilm_imx355_bl24s64.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.alioth_ofilm_imx355_bl24s64.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.eeprom.alioth_ofilm_imx582_gt24p128c.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.alioth_ofilm_imx582_gt24p128c.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.eeprom.alioth_ofilm_s5k3t2_ofl2488.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.alioth_ofilm_s5k3t2_ofl2488.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.eeprom.alioth_sunny_imx355_gt24p64e.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.alioth_sunny_imx355_gt24p64e.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.eeprom.alioth_sunny_imx582_gt24p128e.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.alioth_sunny_imx582_gt24p128e.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.eeprom.alioth_sunny_s5k3t2_p24c64f.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.alioth_sunny_s5k3t2_p24c64f.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.eeprom.alioth_sunny_s5k5e9yx04_p24c64f.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.alioth_sunny_s5k5e9yx04_p24c64f.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.truly_cmb433.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.eeprom.umi_sunny_s5k5e8yx_depth.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.umi_sunny_s5k5e8yx_depth.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.sensor.alioth_hi556.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.alioth_hi556.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.sensor.alioth_imx355.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.alioth_imx355.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.sensor.alioth_imx582.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.alioth_imx582.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.sensor.alioth_s5k3t2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.alioth_s5k3t2.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.sensor.alioth_s5k5e9yx04.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.alioth_s5k5e9yx04.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.sensor.imx563.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx563.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.sensormodule.alioth_ofilm_hi556_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.alioth_ofilm_hi556_macro.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.sensormodule.alioth_ofilm_imx355_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.alioth_ofilm_imx355_ultra.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.sensormodule.alioth_ofilm_imx582_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.alioth_ofilm_imx582_wide.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.sensormodule.alioth_ofilm_s5k3t2_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.alioth_ofilm_s5k3t2_front.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.sensormodule.alioth_sunny_imx355_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.alioth_sunny_imx355_ultra.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.sensormodule.alioth_sunny_imx582_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.alioth_sunny_imx582_wide.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.sensormodule.alioth_sunny_s5k3t2_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.alioth_sunny_s5k3t2_front.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.sensormodule.alioth_sunny_s5k5e9yx04_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.alioth_sunny_s5k5e9yx04_macro.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.tuned.alioth_ofilm_hi556_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.alioth_ofilm_hi556_macro.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.tuned.alioth_ofilm_imx355_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.alioth_ofilm_imx355_ultra.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.tuned.alioth_ofilm_imx582_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.alioth_ofilm_imx582_wide.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.tuned.alioth_ofilm_s5k3t2_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.alioth_ofilm_s5k3t2_front.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.tuned.alioth_sunny_imx355_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.alioth_sunny_imx355_ultra.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.tuned.alioth_sunny_imx582_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.alioth_sunny_imx582_wide.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.tuned.alioth_sunny_s5k3t2_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.alioth_sunny_s5k3t2_front.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.tuned.alioth_sunny_s5k5e9yx04_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.alioth_sunny_s5k5e9yx04_macro.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.camx.chiiqutils.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv3.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.hvx.addconstant.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.hvx.binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.hvx.binning.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.node.customhwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.customhwnode.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.node.depth.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.depth.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.node.dummyrtb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.dummyrtb.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.node.dummysat.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.dummysat.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.eisv2.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.eisv3.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.node.fcv.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.fcv.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.node.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.gpu.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.memcpy.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.node.softisppost.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.softisppost.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.stich.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.node.swregistration.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.swregistration.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.aec.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.stats.aecwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.aecwrapper.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.af.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.stats.afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.afd.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.stats.afwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.afwrapper.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.stats.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.asd.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.awb.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.stats.awbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.awbwrapper.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.stats.haf.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.haf.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.stats.hafoverride.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.hafoverride.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlib.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.stats.pdlibsony.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlibsony.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlibwrapper.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qti.stats.tracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.tracker.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qtistatic.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.aec.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.af.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.awb.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.pdlib.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/components/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/libdepthmapwrapper.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreview.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.demux.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.demux.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.frameselect.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.frameselect.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.fusion.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.generic.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.generic.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.gs.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.gs.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.hdr.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.memcpy.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.mfsr.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.mfsr.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.qcfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.qcfa.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.rawhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.rawhdr.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.rawsupernight.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.rawsupernight.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.rt.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.rt.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.serializer.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.serializer.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.softispprocess.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.softispprocess.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.softispsupernight.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.softispsupernight.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.sr.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.sr.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.stub.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/com.qti.feature2.swmf.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.swmf.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/hw/audio.primary.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.kona.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qti.chi.override.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libI420colorconvert.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/liba2dpoffload.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libaudiocloudctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocloudctrl.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libaudioroute_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute_ext.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerapostproc.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libcamxfacialfeatures.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfacialfeatures.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libcamxfdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgo.so \
@@ -202,13 +299,38 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdeccfg.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svarnn.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchilog.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libcvface_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvface_api.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libcvp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp2.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libcvp2_hfi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp2_hfi.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libcvp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp_common.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libcvpcpuRev_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvpcpuRev_skel.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libfcsam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfcsam.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libipebpsstriping.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipebpsstriping.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libmmhardware.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmhardware.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnanopb.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libofflinelog.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libos.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libresampler.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib64/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsn100u_fw.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ac4dec.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ddpdec.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrightdolby.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_device_mode_stub.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_fastRPC_util.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_low_lat_stream_stub.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_registry_skel.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsapi.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsdiaglog.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libwfdaac_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdaac_vendor.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswregistrationalgo.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libsynx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynx.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthreadutils.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/rfsa/adsp/capi_v2_cirrus_sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_cirrus_sp.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/rfsa/adsp/capi_v2_dap_cpdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_dap_cpdp.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/rfsa/adsp/hrtf5c.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/hrtf5c.bin \
@@ -250,6 +372,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/alioth/proprietary/vendor/lib/soundfx/libswvqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswvqe.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@2.0.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.audiohalext@1.0.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/vndk/libxlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libxlog.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib64/camera/com.qti.actuator.alioth_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.actuator.alioth_dw9800.so \
@@ -377,6 +500,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/alioth/proprietary/vendor/lib64/libHalSuperSensorServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHalSuperSensorServer.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib64/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libI420colorconvert.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib64/libMIAIHDRhvx_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMIAIHDRhvx_interface.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib64/libPlatformValidatorShared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPlatformValidatorShared.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib64/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSNPE.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib64/libSuperSensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSuperSensor.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib64/libSuperSensorCPU.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSuperSensorCPU.so \
@@ -400,6 +524,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/alioth/proprietary/vendor/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib64/libarcsoft_superportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_superportrait.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib64/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib64/libcalculator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalculator.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib64/libcalculator_domains.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalculator_domains.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib64/libcamera_dirty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_dirty.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib64/libcamera_scene.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_scene.so \

@@ -193,7 +193,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libfcsam \
-    audio.primary.kona \
     liba2dpoffload \
     libaudio_log_utils \
     libaudiocloudctrl \
